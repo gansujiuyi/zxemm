@@ -1,0 +1,229 @@
+body {
+	padding:0px;margin: 0px;width:100%;height:100%;font-family: Verdana, Arial,Vrinda,Tahoma;line-height: 175%;font-size:12px;color:#666;}
+html {
+	padding:0;margin: 0;height:100%;}
+a {
+	color: #555;
+	text-decoration:none;
+}
+a:hover {
+	color: #0099CC;
+}
+
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	display:inline;
+}
+ul{
+    margin:0;
+	padding:0;
+	list-style-position: outside;
+	list-style-type: none;
+}
+li{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:0;
+	padding:0;
+}
+.header_content_b {
+	margin: 0 auto;
+	padding:0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/banner_b.jpg);
+	background-repeat: repeat-x;
+}
+.header_content {
+	margin-bottom:5px;
+	padding:0px;
+	width: 100%;
+	height: 96px;
+	background: no-repeat;
+}
+.colred{color:#ee3535;}
+.header_content .right_nav {
+	float: right;
+	width: 80%;
+	height: 95px;
+	padding: 0;
+	/*height: 100px;
+	padding: 0 0 5px 0;*/
+}
+
+.right_nav .text_left {
+	float: left;
+	width: 20%;
+	padding: 22px 0 0 0;
+	color: #CC3300;
+}
+.right_nav .text_right {
+	float: right;
+	width: 80%;
+	display: inline;
+	padding: 15px 20px 0 0;
+	text-align: right;
+}
+.nav_list a {
+	display: inline;
+	color:#3399CC;
+}
+.nav_list li {
+      display:inline;
+	  }
+.nav_return a {
+	display: inline;
+	color:#302e31;
+}
+.nav_return li {
+	display: inline;
+}
+#left_content {clear: both;width: 199px;*width: 199px;height:90%;*height:89%;}
+#left_content #user_info {
+	
+	background-image: url(../images/manage_r2_c1.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	padding: 10px 0 0 55px;
+}
+#left_content #user_info a{
+    color:#0099CC;
+}
+#left_content #main_nav {
+	width: 199px;
+	height:100%;
+	/*
+	background-image: url(../images/left_nav_bg.jpg);
+	*/
+	background-repeat: repeat-y;
+}
+#left_main_nav {
+	float: left;
+	width: 25px;
+	line-height: 13px;
+	color:#0099CC;
+}
+#left_main_nav li{
+	height:69px;
+	width:12px;
+	text-align: center;
+	padding: 7px 6px 0 7px;
+}
+.left_back{
+	background-image: url(../images/manage_r7_c2.jpg);
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+.left_back_onclick{
+	background-image: url(../images/manage_r6_c2.jpg);
+	background-repeat: no-repeat;
+	color:#333333;
+}
+#left_main_nav a{
+    color:#0099CC;
+}#right_main_nav {
+	width: 196px;
+	border:1px solid #B4C9C6;
+	float: right;
+	background-color: #FFFFFF;
+	height: 100%;
+	overflow:auto;
+	text-align: left;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-shadow-color:#bebebe;
+	scrollbar-highlight-color:none;
+	scrollbar-3dlight-color:#bebebe;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-track-color: #f7f7f7;
+	scrollbar-arrow-color: #666666;
+}
+.list_tilte {
+	background-image: url(../images/list_title.gif);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	clear: both;
+	height: 22px;
+	width: 140px;
+	padding-left: 30px;
+	font-weight: bold;
+	color: #0099CC;
+	margin-top: 9px;
+	cursor:pointer;
+}
+.list_tilte_onclick {
+	background-image: url(../images/list_title_onclick.gif);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	clear: both;
+	height: 22px;
+	width: 140px;
+	padding-left: 30px;
+	font-weight: bold;
+	color: #0099CC;
+	margin-top: 9px;
+	cursor:pointer;
+}
+.list_detail {
+	margin: 0 auto;
+}
+.list_detail li{
+	list-style-image: url(../images/direct_blue.gif);
+	list-style-position: inside;
+	padding: 0 0 0 4px;
+    }
+
+#switchpic {
+	width: 6px;
+	cursor:pointer;
+	clear: both;
+	vertical-align: bottom;
+	margin-top: 220px;
+}
+#nav {
+	width:99%;
+	float:left;
+	background-image: url(../images/nav_bg.jpg);
+}
+#nav ul { 
+      margin:0; 
+	  list-style:none; 
+	  padding: 0;
+ }
+#nav li {
+     float:left; 
+	 margin:0; 
+	 padding:2px 35px 0 30px;
+	 line-height:24px;
+	 font-weight:bold;
+}
+.bg_image{
+	 background: url(../images/manage_r2_c14.jpg) no-repeat;
+	 cursor:pointer;
+}
+.bg_image_onclick{
+	 background: url(../images/manage_r2_c13.jpg) no-repeat;
+	 color:#0099CC;
+}
+
+#sub_info {
+	height: 55px;
+	width: 99%;
+	padding: 10px 0 0 55px;
+	float:left;
+	background: url(../images/backpg.jpg) no-repeat;
+	border:1px #B4C9C6;
+}
+#man_zone {
+	height: 445px;
+	width: 99%;
+	border: 1px solid #B4C9C6;
+	margin: 6px 0 0 0;
+	background-color:#FFFFFF;
+	padding: 5px 0 5px 0;
+	overflow: auto;
+}

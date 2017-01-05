@@ -1,0 +1,2 @@
+JFJZMB.xls	积分记账Excel导入模板.xls
+jfycardBatchOpen.xls	积分卡批量开户导入模板.xls

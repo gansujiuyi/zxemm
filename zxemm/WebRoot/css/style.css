@@ -1,0 +1,105 @@
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+BODY {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+INPUT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT.text {
+	BORDER-BOTTOM: #676767 1px solid; BORDER-LEFT: #676767 1px solid; PADDING-BOTTOM: 5px; IME-MODE: disabled; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; BACKGROUND: url(input-bg.gif) #feff99 repeat-x 50% bottom; FONT-SIZE: 14px; BORDER-TOP: #676767 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #676767 1px solid; PADDING-TOP: 5px
+}
+INPUT.focus {
+	BACKGROUND-IMAGE: none
+}
+A:link {
+	COLOR: #328d01
+}
+A:visited {
+	COLOR: #328d01
+}
+.red {
+	COLOR: #f00
+}
+.btn1 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 42px; WIDTH: 88px; DISPLAY: inline; BACKGROUND: url(main-pic-1.01.gif) no-repeat 0px 0px; FLOAT: left; HEIGHT: 38px; COLOR: #336601; FONT-SIZE: 14px; BORDER-TOP: 0px; CURSOR: pointer !important; FONT-WEIGHT: bold; BORDER-RIGHT: 0px
+}
+.btn2 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 42px; WIDTH: 88px; DISPLAY: inline; BACKGROUND: url(main-pic-1.01.gif) no-repeat 0px 0px; FLOAT: left; HEIGHT: 38px; COLOR: #336601; FONT-SIZE: 14px; BORDER-TOP: 0px; CURSOR: pointer !important; FONT-WEIGHT: bold; BORDER-RIGHT: 0px
+}
+.btn2 {
+	BACKGROUND-POSITION: -100px 0px; COLOR: #2d5901
+}
+.f14 {
+	FONT-SIZE: 14px
+}
+.f16 {
+	FONT-SIZE: 16px
+}
+#my {
+	COLOR: #326500; FONT-SIZE: 16px
+}
+.text1 {
+	BORDER-LEFT: #60a025 1px solid; MARGIN-TOP: 14px; WIDTH: 220px; BACKGROUND: url(main-pic-1.01.gif) no-repeat 0px -100px; HEIGHT: 35px
+}
+.text1 P {
+	DISPLAY: none
+}
+.info {
+	TEXT-ALIGN: left; LINE-HEIGHT: 20px; MARGIN-TOP: 5px
+}
+.info I {
+	WIDTH: 50px; DISPLAY: block; BACKGROUND: url(main-pic-1.01.gif); FLOAT: left; HEIGHT: 50px; MARGIN-RIGHT: 5px
+}
+.info I.i1 {
+	BACKGROUND-POSITION: -11px -45px
+}
+.info I.i2 {
+	BACKGROUND-POSITION: -72px -45px
+}
+.info EM {
+	FONT-STYLE: normal; COLOR: #649901; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.info P {
+	COLOR: #999
+}
+.line-v {
+	BACKGROUND: url(line-v.gif) no-repeat right center
+}
+.big-pic {
+	WIDTH: 558px; DISPLAY: block; BACKGROUND: url(big-pic.jpg) no-repeat; HEIGHT: 162px
+}
+.lang-choice A {
+	COLOR: #000; MARGIN-RIGHT: 10px; TEXT-DECORATION: none
+}
+.lang-choice A:visited {
+	COLOR: #000; MARGIN-RIGHT: 10px; TEXT-DECORATION: none
+}
+.lang-choice A:hover {
+	COLOR: #328d01
+}
+.lang-choice A.selected {
+	COLOR: #328d01
+}

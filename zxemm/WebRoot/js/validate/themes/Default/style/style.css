@@ -1,0 +1,67 @@
+.onShow
+{
+    /* background:url(../images/onShow.gif) no-repeat; */
+    color:#666;
+    padding-left:5px; 
+	margin-left:5px; 
+	font-size: 12px;
+	line-height:27px; 
+	vertical-align:middle;
+}
+.onFocus
+{
+    /* background:url(../images/onFocus.gif) no-repeat;  */
+    padding-left:5px;
+	margin-left:5px; 
+	font-size: 12px;
+	line-height:27px; 
+	vertical-align:middle;
+	color:#666;
+}
+.onError
+{
+   background:url(../images/onError.gif) no-repeat 0 3px;
+	padding-left:25px; 
+	margin-left:5px; 
+	font-size: 12px;
+	line-height:27px; 
+	vertical-align:middle;
+	color:#ef2500;
+}
+.onCorrect
+{
+    background:url(../images/onCorrect.gif) no-repeat;
+	padding-left:25px; 
+	margin-left:5px; 
+	font-size: 12px;
+	line-height:27px; 
+	vertical-align:middle;
+}
+.onLoad
+{
+    background:url(../images/onLoad.gif) no-repeat 3px 3px;
+    padding-left:25px;
+	margin-left:5px; 
+	font-size: 12px;
+	line-height:27px; 
+	vertical-align:middle;
+} 
+
+.inputOnShow
+{
+	color: #999999
+}
+.input_public{background-color: #FFF;
+	width:164px; height:27px; line-height:27px;background:#fff; border:1px solid #999; font-size:14px;border-color: #c4ccd3 #c4ccd3 #c4ccd3 #c4ccd3;border-radius: 2px 2px 2px 2px;border-style: solid;border-width: 1px;box-shadow: 1px 1px 1px #fff inset; padding-left:2px;
+}
+
+.input_error {	
+    border: 1px solid #ef2500;	
+}
+
+.input_focus {
+    border:1px solid #a3c0fa;
+}
+.input_correct {
+	border-color:#c1c0bc;
+}

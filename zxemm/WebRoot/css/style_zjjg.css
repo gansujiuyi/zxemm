@@ -1,0 +1,83 @@
+body{ margin:0 auto; font-size:12px; color:#333;} 
+.w900{ margin:0 auto; width:898px; background:#fff; border:1px solid #ddd;}
+.header{ height:33px; line-height:33px; border-bottom:1px solid #ddd; color:#000; font-size:14px; padding-left:20px; background:url(../images/head-bgimg.png) no-repeat; font-weight:bold;}
+.center{width:810px; margin:20px auto 0;}
+.fleft{ float:left;}
+/*步骤*/
+.step ul{ height:30px; width:100%; margin:0; padding:0;}
+.step ul li{ padding:0; margin:0; width:202px;height:30px;float:left;color:#666; background:#ccc url(../images/step-bg.png) 316px -46px no-repeat; list-style:none;}
+.step ul li.last{ background-position:324px -255px;}
+.step ul li.current-prev{background-color:#44afd7; background-position:317px -23px}
+.step ul li.current-prev span{color:#fff; font-weight:bold;}
+.step ul li span{ font:normal 12px/30px "宋体";display:block; width:100%;height:30px;}
+.first span{background:url(../images/step-bg.png) right top no-repeat;}
+.first2 span{background:url(../images/step-bg.png) right bottom no-repeat;}
+.first3 span{background:url(../images/step-bg.png) right center no-repeat;}
+/*步骤一*/
+.content{height:auto;margin:75px 0 0 180px;overflow:hidden;}
+.item,.item1{padding-bottom:5px;overflow:hidden;}
+.item{_width:550px;position:relative;}
+.input203,.input103,.input131,.input233,.input161,.select207{ height:26px; line-height:26px; border:1px solid #999;}
+.input203{ width:203px;}
+.input204{width:150px;height:16px;line-height:26px; border:1px solid #999;}
+.select207{width:207px;height:28px;}
+.item-sel-1,.item-sel-2{ height:30px; line-height:30px; border:1px solid #999;}
+.item-sel-1{ width:207px;}
+.item-label{width:108px;height:30px;line-height:30px;float:left;text-align:right;}
+.msg-weak{ float:left; padding-left:10px; line-height:27px;*width:350px;color:#666;}
+.left-warp{float:left;}
+.right-warp{float:left;margin-left:35px; padding-top:36px;}
+.item .check_outer{padding-left:25px;}
+.text_list{display:none; position:absolute;left:100px;top:30px;width:205px;background:#fff;z-index:22;border:1px solid #ddd;border-bottom:none;}
+.text_list li{border-bottom:1px solid #ddd;padding-left:10px;cursor: pointer;}
+/*步骤二*/
+.content2{ margin-left:30px;}
+.content2 span{ height:30px; line-height:30px;}
+.item1{_width:370px;}
+.center-ul,.center-ul1{ margin:2px -10px 0 0; padding:0;overflow:hidden; zoom:1;}
+.center-ul li,.center-ul1 li{ float:left; width:400px; _width:370px; padding:30px 0 10px;margin:0 10px 10px 0; background:#eee; list-style:none; position:relative;}
+.center-ul li{*height:300px;}
+.item-sel-2{ width:95px; margin-right:5px;zoom:1;}
+.input103{ width:103px; color:#999;}
+.input131{ width:112px;}/*修改  原样：.input131{ width:131px;}*/
+.choice-btn{ height:30px; line-height:26px; width:85px;_width:73px;/*宽度原值66px*/ background:#f8f8f8; border:1px solid #999; border-radius:5px; margin-left:5px; text-align: center;}
+.btn-div{ text-align:center; padding-bottom:20px;}
+.select2-container.item-sel-1.fleft a.select2-choice{right: 0px; top: 0px;}
+/*步骤三*/
+.card-num-div{padding:50px 0 25px 250px; border-bottom:1px dashed #cdcdcd;}
+.input233{width:233px;}
+.input161{width:161px;}
+.center-ul1 li{*height:200px;}
+.center-ul li a,.center-ul1 li a{ position:absolute; top:13px; right:13px;}
+.center-ul li a img,.center-ul1 li a img{ border:0;}
+.add-info{ background:url(../images/add-img.png) left center no-repeat; padding-left:20px; line-height:20px;}
+.add-info a{color:#44afd7; font-weight:bold; text-decoration:none;}
+.tips-info{ color:#f00; line-height:30px;}
+/*步骤四*/
+.success-info{ color:#44afd7; font-size:16px; font-weight:bold; padding-left:35px; background:url(../images/success-img.png) left center no-repeat; line-height:30px; margin:20px 0 0 0;}
+.info-list{ border:1px solid #ddd; margin-top:20px; padding:0 20px;}
+.info-list table.info-list-table{ margin-top:30px;}
+.info-list table tr td{ height:25px; line-height:25px; text-align:center;}
+.info-list table tr.table-tr td{ background:#eee; font-weight:bold;}
+.table-title{ font-size:14px; font-weight:bold;}
+.info-list table tr td.table-title{text-align:left;}
+.card-num-div1{ padding:30px 0 0 200px;}
+/*流水页面*/
+.page{ width:880px; margin:10px auto;}
+.contract-info{ background:#d7e5ed; padding:10px 20px;}
+.contract-info table tr td{ text-align:center; line-height:25px;}
+.pay-info,.check-result{ border:1px solid #ddd; margin-top:10px;}
+.pay-info{ height:81px;}
+.pay-info ul.pay-info-ul{float:left;}
+.pay-info ul.pay-info-ul li{ height:40px; line-height:40px; width:109px; text-align:center; background:#eee; cursor:pointer;}
+.pay-info ul.pay-info-ul li.selected{ background:#fff;border-right:0;margin-top: 42px}
+.pay-info-box{ float:left; width:610px; margin-left:50px;}
+.pay-info-box ul{ margin:10px -50px 0 0; overflow:hidden; zoom:1;}
+.pay-info-box ul li{ float:left; width:300px; margin: 0 10px 5px 0;}
+.input172,.Wdate{ width:172px; height:23px; line-height:23px; border:1px solid #999;}
+.check-btn{ float:left; margin-top:45px;}
+.check-result-box{ margin:20px; background:#f8f8f8;}
+.check-result-box table{ margin:10px 0;}
+.check-result-box table tr td{ text-align:center; line-height:25px;}
+/*修改*/
+.item{ line-height:30px;}

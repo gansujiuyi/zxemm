@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	
+	<!-- 定时任务调度 start-->
+	<bean id="schedulerFactory" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" destroy-method="destroy">
+		<property name="triggers">
+			<list>
+				<ref bean="SnyBankAccountInfoJob" />
+				<ref bean="SnyCompanyInfoJob" />
+				<ref bean="SnyCheckErrorInfoJob" />
+			</list>
+		</property>
+	</bean>
+	
+	<!--新房资金监管开户定时任务开始-->
+	<bean id="SnyCompanyInfoUtils" class="com.jiuyi.jyplat.util.timer.SnyCompanyInfoUtils"/>
+	
+	<!--同步银行账户信息-->
+	<bean id="SnyBankAccountInfoUtils" class="com.jiuyi.jyplat.util.timer.SnyBankAccountInfoUtils"/>
+	
+	<!--错误信息检查-->
+	<bean id="SysCheckInfoUitls" class="com.jiuyi.jyplat.util.timer.SysCheckInfoUitls"/>
+	
+	<bean id="SnyCompanyInfoJobTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SnyCompanyInfoUtils" />
+		<property name="targetMethod" value="run" />
+	</bean>
+
+	<bean id="SnyCompanyInfoJob" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="SnyCompanyInfoJobTask" />
+		<property name="cronExpression" value="0 0/30 * * * ?" />
+		<!-- <property name="cronExpression"  value="0 0/2 * * * ?"  /> -->
+	</bean>
+	<!-- 新房资金监管定时任务结束-->
+	<bean id="SnyBankAccountInfoTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SnyBankAccountInfoUtils" />
+		<property name="targetMethod" value="run" />
+	</bean>
+	
+	<bean id="SnyBankAccountInfoJob" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="SnyBankAccountInfoTask" />
+		<property name="cronExpression" value="0 0/50 * * * ?" />
+		<!-- <property name="cronExpression"  value="0 0/5 * * * ?"  /> -->
+	</bean>
+	<!-- 银行账户信息同步任务结束-->
+	
+	<!-- 错误信息检查开始 -->
+	<bean id="SnyCheckErrorInfoTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SysCheckInfoUitls" />
+		<property name="targetMethod" value="run" />
+	</bean>
+	
+	<bean id="SnyCheckErrorInfoJob" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="SnyCheckErrorInfoTask" />
+		<property name="cronExpression" value="0 0/30 * * * ?" />
+	</bean>
+	<!-- 错误信息检查结束 -->
+</beans>

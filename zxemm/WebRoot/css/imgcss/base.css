@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+html{color:#666;background:#FFF}body,div,ul,li,h1,h2,h3,h4,form,input,p,button,dl,dt,dd,fieldset,textarea,label,del{margin:0;padding:0}img,fieldset{border:0}li{list-style:none}input,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;}input,button,textarea{font:99% arial;}.cf:after{content:"";display:table;clear:both;}.cf{zoom:1;}
+body{ font:12px/1.5em SimSun; color:#666;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#ff8c3c; text-decoration:underline;}
+input{ vertical-align:middle;}
+.inputTXT{ height:22px; line-height:22px; padding:0 2px;}
+.inputNum{ width:100px;}
+.inputDate{ height:22px; line-height:22px; width:100px; padding-left:7px; background:#fff url(../images/ico_date.png) 88px center no-repeat; border:1px solid #666;}
+select{ line-height:24px; height:24px;vertical-align:middle;}
+textarea{ width:400px; height:80px; padding:5px; line-height:18px;}
+.cf00{ color:#f00;}
+
+/*背景加载*/
+.pruBox-secCon .item span,.asideBox li span,.hNav a{ background-image:url(../images/ico.png); background-repeat:no-repeat;}
+
+/*header*/
+.header{min-width:1002px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?"1002px":""); position:relative; z-index:10; height:54px; background:url(../images/bg_header_x.png) repeat-x;}
+.logoCon{ position:absolute; left:8px; top:0;}
+.logo{ width:167px; height:30px; display:block; float:left; margin-top:9px;}
+.logotxt{ float:left; width:176px; height:50px; float:left; margin-left:24px; line-height:50px; font-size:20px; font-family:\5FAE\8F6F\96C5\9ED1,SimHei,SimSun; color:#fff; padding-left:18px; border-left:1px solid #f4802f; }
+.hNav{ width:120px; height:50px; position:absolute; right:0; top:0;}
+.hNav a{ float:right; width:50px; height:50px; display:block; overflow:hidden; text-indent:-999px; margin-left:10px;}
+.hNav a:hover{ background-color:#ce6901;}
+.hNav .ico-home{ background-position:0 0;}
+.hNav .ico-exit{ background-position:-50px 0;}
+.hNav .ico-home:hover{ background-position:0 -50px;}
+.hNav .ico-exit:hover{ background-position:-50px -50px;}
+/*section*/
+.section{ min-width:1002px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?"1002px":""); height:auto; overflow:hidden; position:relative; background:#eee; background:#fff url(../images/bg_section.png) left top repeat-y;}
+.aside{ width:200px; height:auto; overflow:hidden; position:absolute; left:0; top:15px;}
+.useInfo{ width:200px; height:96px;}
+.useBox{ width:182px; height:auto; background:#fff; border:1px solid #ebe0d9; border-radius:10px; margin:0 auto; font-family:Arial,SimSun; padding:14px 0 16px 0; overflow:hidden; color:#8f8f8f;}
+.useBox p{ padding-left:11px; line-height:20px;}
+.asideBox{ width:200px; height:auto; overflow:hidden; margin-bottom:11px;}
+.asideBox h2{ font-size:14px; height:32px; line-height:32px; background:#bea798; color:#fff; padding-left:16px;}
+.asideBox ul{ padding-top:5px;}
+.asideBox li{line-height:24px;}
+.asideBox li ul{ padding-top:0;}
+.asideBox li a{ padding-left:35px;}
+.asideBox li.current a{ color:#ff8c3c; font-weight:bold;}
+.asideBox li.current a:hover{ color:#ff8c3c; text-decoration:none;}
+.asideBox li.current .aside2Item li a{color:#666; font-weight:normal;}
+.asideBox li.current .aside2Item li a:hover{color:#ff8c3c; text-decoration:underline;}
+.asideBox li{ padding-left:6px;}
+.asideBox li span{padding-left:35px; height:24px; display:block;}
+.asideBox li span a{ padding-left:0;}
+.asideBox .on{ background-position:0 -124px; }
+.asideBox .off{background-position:0 -100px;}
+.aside2Item li a{ color:#666;}
+.aside2Item li a:hover{color:#ff8c3c; text-decoration:underline;}
+
+
+.main{ width:100%; text-align:left;}
+.main-wrap{margin-left:215px; min-height:1120px;_height:expression(this.scrollHeight < 1120 ? "1120px" : "auto");margin-right:15px;_margin-right:10px;}
+.main-wrap table{ font-size:12px;}
+
+.footer{ width:100%; height:80px; padding-top:20px; border-top:1px solid #e8e8e8; background:#eee;text-align:center; margin:0 auto;}
+.footer p{ font-size:12px; font-family:Arial,SimSun; color:#999; line-height:20px; white-space:nowrap;}
+
+
+/*page*/
+.page{ height:28px;overflow:hidden; margin-top:20px; line-height:28px; float:right;}
+.pageCon{ height:26px; border:1px solid #dedede; border-right:none; display:block; text-align:center; float:left; line-height:26px; margin:0 8px;}
+.pageCon strong,.pageCon a{ width:26px; height:26px; display:block; border-right:1px solid #dedede; float:left; font-family:Arial;}
+.pageCon strong{ background:#ff8c3c; font-weight:normal; color:#fff;}
+.page .point{ float:left;}
+.page .no-link,.page .next,.page .pove{ height:26px; width:60px; text-align:center; line-height:26px; border:1px solid #dedede; float:left;}
+.page .next:hover,.page .pove:hover{ border:1px solid #ff8c3c; text-decoration:none;}
+.page .no-link{ color:#ccc; display:block; }

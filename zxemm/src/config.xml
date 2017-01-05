@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<log-config  file="d:\log.txt" level="INFO" />
+	
+	<servers>
+	 
+		<server>
+			<port value="13145" />
+			<requestQueue size="100"  />
+			<pool minThread="1" maxThread="10" />
+			<interceptors>
+				<interceptor class="xiaoyang.server.sample.simple.Mynterceptor1" />
+				<interceptor class="xiaoyang.server.sample.simple.Mynterceptor2" />
+			</interceptors>
+			<serverHandler class="com.jiuyi.net.socketServer.EzexServerHandler" />
+		</server>
+	</servers>
+	
+</config>

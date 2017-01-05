@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*重置浏览器浏览器*/
+*{margin:0;padding:0;border:0;}
+body,ul,ol,div,table,td,form,img,dl,dd,dt,h1,h2,h3,h4,h5,h6{margin:0;padding:0;border:0}
+table{border-collapse:collapse;border-spacing:0}
+td{padding:0;margin:0}
+ul{list-style:none}
+body,textarea,input,select{font-size:12px;font-family:'宋体';}
+/*个人中心按钮*/
+.button-orange{ padding:0 20px; text-align:center;border:0; font:bold 14px/24px "宋体"; cursor:pointer;}
+/*字体样式*/
+.b{font-weight:bold}
+.i{font-style:italic}
+.u{text-decoration:underline}
+.f8{font-size:8px}
+.f12{font-size:12px}
+.f14{font-size:14px}
+.fRed{color:Red;}
+.fTahoma{font-family:Tahoma}
+
+/*标题*/
+h1{font-size:32px;font-weight:bold}
+h2{font-size:25px;font-weight:bold}
+h3{font-size:19px;font-weight:bold}
+h4{font-size:16px;font-weight:bold}
+h5{font-size:13px;font-weight:bold}
+h6{font-size:11px;font-weight:bold}
+
+/*浮动*/
+.fltL{float:left}
+.fltR{float:right}
+.clr{clear:both;float:none;height:0;overflow:hidden;}
+
+/*样式*/
+.hide{display:none}
+.invisible{visibility:hidden}
+.inline{display:inline}
+.block{display:block}
+.visible{visibility:visible}
+.line{height:1px;border-top:solid 1px #dddcdc}
+.gray{color:Gray}
+
+/*position*/
+.tal{text-align:left}
+.tar{text-align:right}
+.tac{text-align:center}
+.vam{vertical-align:middle}
+.pa{position:absolute}
+
+/* margin */
+.m2{margin:2px}
+.m4{margin:4px}
+.m6{margin:6px}
+.mT2{margin-top:2px}
+.mT4{margin-top:4px}
+.mT6{margin-top:6px}
+.mL2{margin-left:2px}
+.mL4{margin-left:4px}
+.mL6{margin-left:6px}
+.mL18{margin-left:18px}
+.mB2{margin-bottom:2px}
+.mB4{margin-bottom:4px}
+.mB6{margin-bottom:6px}
+.mB10{margin-bottom:10px}
+.mR2{margin-right:2px}
+.mR4{margin-right:4px}
+.mR6{margin-right:6px}
+
+/* padding */
+.p2{padding:2px}
+.p4{padding:4px}
+.p6{padding:6px}
+.pT2{padding-top:2px}
+.pT4{padding-top:4px}
+.pT6{padding-top:6px}
+.pL2{padding-left:2px}
+.pL4{padding-left:4px}
+.pL6{padding-left:6px}
+.pB2{padding-bottom:2px}
+.pB4{padding-bottom:4px}
+.pB6{padding-bottom:6px}
+.pR2{padding-right:2px}
+.pR4{padding-right:4px}
+.pR6{padding-right:6px}
+
+/*utilits*/
+.hdn{display:none;}
+cite{display:block;font-style:normal;}
+
+/*弹出层*/
+#pop_shadow{position:absolute;display:none;background:gray;opacity:0.75;z-index:999;top:0;left:0;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75);}
+.pop_top_container{position:absolute;display:none;left:50%;z-index:9999;background:#fff;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;font-weight: bold;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;} 
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+input,select{vertical-align:middle;cursor:pointer;}
+body{font:12px/1.231 arial,helvetica,clean,sans-serif; width:100%;}
+select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}
+table{font-size:inherit;font:100%; border-collapse:collapse;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+/*title*/
+h1 { font-size:32px;}
+h2 { font-size:26px;}
+h3 { font-size:14px;}
+h4 { font-size:14px;}
+h5 { font-size:12px;}
+h6 { font-size:10px;}
